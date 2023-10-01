@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative; 
+}
+
+/* ----------------------------------------------------------------------- */
+
+ul{
+    font-family: 'Secular One', sans-serif;
+    color: #CDCCD1;
+    position: absolute;
+    margin-left: 6%;
+}
+
+li{
+    font-size: 0.8vw;
+    margin-top: 20%;
+    margin-left: 50px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+#nome, #stack{
+    margin-left: 10%;
+    margin-top: 17%;
+    color: #CDCCD1;
+    font-family: 'Baloo 2', cursive;
+    font-size: 7vw;
+    position: absolute;
+}
+
+#stack{
+    font-size: 6vw;
+    margin-left: 10%;
+    margin-top: 24%;
+}
+
+#git, #curriculo, #linkedin{
+    max-width: 7%;
+    margin-left: 40px;
+    transition: transform .2s;
+}
+
+#git:hover, #curriculo:hover, #linkedin:hover{
+    transform: scale(1.5)
+}
+
+.icons{
+    margin-left: 45%;
+    margin-top: 19%;
+    position: absolute;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.seemore{
+    margin-top: 45%;
+    margin-left: 95%;
+    padding-top: 2px;
+    padding-left: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #454449;
+    position: absolute;
+    animation: seemore 2s ease infinite;
+}
+
+@keyframes seemore {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+
+#arrow{
+    width: 15px;
+    height: 15px;
+}
