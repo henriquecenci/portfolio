@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     position: relative; 
+    background-color: #CDCCD1;
 }
 
 /* ----------------------------------------------------------------------- */
@@ -39,7 +40,7 @@ li{
 
 #git, #curriculo, #linkedin{
     max-width: 7%;
-    margin-left: 40px;
+    margin-left: 5%;
     transition: transform .2s;
 }
 
@@ -56,7 +57,7 @@ li{
 /* ----------------------------------------------------------------------- */
 
 .seemore{
-    margin-top: 45%;
+    margin-top: 85vh;
     margin-left: 95%;
     padding-top: 2px;
     padding-left: 7px;
@@ -77,4 +78,49 @@ li{
 #arrow{
     width: 15px;
     height: 15px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.accordion{
+    max-width: 75%;
+    position: absolute;
+    margin-top: 135vh;
+}
+
+.accordion-body{
+    font-family: 'Secular One', sans-serif;
+    color: #CDCCD1;
+}
+
+#accordion-button{
+    font-family: 'Baloo 2', cursive;
+    color: #CDCCD1;
+    background-color: #454449;
+}
+
+.accordion-collapse {
+    background-color: #646464;
+}
+
+.titulo-aboutme{
+    margin-top: 125vh;
+    font-family: 'Baloo 2', cursive;
+    position: absolute;
+    color: #CDCCD1;
+
+}
+
+/* ----------------------------------------------------------------------- */
+
+.projects{
+    position: absolute;
+}
+
+.titulo-projects{
+    margin-top: 215vh;
+    font-family: 'Baloo 2', cursive;
+    position: absolute;
+    color: #CDCCD1;
+    margin-left: 20vh;
 }
