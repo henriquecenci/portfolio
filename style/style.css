@@ -81,7 +81,10 @@ li{
 }
 
 /* ----------------------------------------------------------------------- */
-
+#aboutme{
+    position: absolute;
+    margin-top: 100vh;
+}
 .accordion{
     max-width: 75%;
     position: absolute;
@@ -113,14 +116,38 @@ li{
 
 /* ----------------------------------------------------------------------- */
 
-.projects{
+#projects{
     position: absolute;
+    margin-top: 200vh;
 }
 
 .titulo-projects{
     margin-top: 215vh;
+    margin-left: 12%;
     font-family: 'Baloo 2', cursive;
     position: absolute;
     color: #CDCCD1;
-    margin-left: 20vh;
 }
+
+.cubo{
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 275vh;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: absolute;
+    gap: 5%;
+    margin-left: 35vh;
+    margin-top: 235vh;
+}
+
+.project1, .project2,.project3,.project4,.project5{
+    background-color: #454449;
+    width: 200px;
+    height: 250px;
+    border-radius: 4%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} 
