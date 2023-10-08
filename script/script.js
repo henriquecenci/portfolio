@@ -5,4 +5,3 @@ function scrollToTarget(targetId) {
         targetElement.scrollIntoView({ behavior: 'smooth' });
     }
 }
-

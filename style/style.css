@@ -151,3 +151,57 @@ li{
     border-radius: 4%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 } 
+
+@media screen and (max-width: 765px){
+    .cards{
+        display: grid;
+        grid-template-columns: 
+        1fr 1fr 1fr;
+        position: absolute;
+        gap: 5%;
+        margin-left: 215vh;
+        margin-top: 230vh;
+    }
+
+    .project1, .project2,.project3,.project4,.project5{
+        background-color: #454449;
+        width: 200px;
+        height: 250px;
+        border-radius: 4%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    } 
+}
+/* ----------------------------------------------------------------------- */
+
+.titulo-contact{
+    margin-top: 355vh;
+    font-family: 'Baloo 2', cursive;
+    position: absolute;
+    color: #454449;
+}
+
+.form{
+    position: absolute;
+    margin-top: 365vh;
+    width: 800px;
+}
+
+label{
+    color: #CDCCD1;
+    font-family: 'Baloo 2', cursive;
+}
+
+#floatingInput{
+    font-family: 'Secular One', sans-serif;
+    background-color: #646464;
+    color: #CDCCD1;
+}
+
+.btn{
+    background-color: #454449;
+}
+
+#contactt{
+    position: absolute;
+    margin-top: 340vh;
+}
